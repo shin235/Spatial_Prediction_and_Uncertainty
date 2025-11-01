@@ -2,9 +2,9 @@
 
 This repository was developed as part of my Master’s thesis at Humboldt-Universität zu Berlin.
 
-It implements a probabilistic deep learning pipeline to predict PM2.5 concentrations across the United States. The model builds on Bayesian deep learning techniques to quantify predictive uncertainty.
+It implements a probabilistic deep learning pipeline to predict **PM2.5 concentrations** across the United States. The model builds on **Bayesian deep learning** techniques to quantify predictive uncertainty.
 
-### Repository structure
+### Repository Structure
 
 ```text
 .
@@ -25,3 +25,11 @@ It implements a probabilistic deep learning pipeline to predict PM2.5 concentrat
 ├── requirements.txt
 └── README.md
 ```
+
+### 🧠 Model Deployment
+
+This repository includes an interactive web demo of the Bayesian DeepKriging model,  
+visualizing spatial **PM2.5 mean predictions (μ)** and **predictive uncertainty (σ)** across the United States.  
+Users can also **enter specific longitude and latitude coordinates** to retrieve the model’s local mean and uncertainty values.
+
+➡️ [**Launch Interactive Demo on Hugging Face Spaces**](https://huggingface.co/spaces/shin235/spatial_prediction_and_uncertainty)
